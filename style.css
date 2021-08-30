@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url("./background\ image.jpg");
+    color: aqua;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    width: 200px;
+    float: left;
+    height: 75px;
+}
+
+.logo {
+    color: orange;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 0px 0px 10px;
+    float: left;
+    margin-left: -10px;
+}
+
+.menu {
+    width: 500px;
+    float: left;
+    height: 60px;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 20px 0px 0px 30px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    transition: all 0.8s ease-in-out;
+    padding-left: 10px;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+.search {
+    width: 300px;
+    float: right;
+    margin-right: -80px;
+}
+
+.srch {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 200px;
+    height: 10px;
+    background: transparent;
+    border: 2px solid white;
+    margin-top: 13px;
+    color: white;
+    margin-right: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 3s;
+}
+
+.srch:hover {
+    border-color: aqua
+}
+
+.button {
+    background: transparent;
+    color: white;
+    width: 222px;
+    height: 20px;
+    margin-top: 5px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: all 3s;
+}
+
+.button:hover {
+    color: white;
+    border-color: aqua;
+    outline: none;
+}
+
+.content {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+.content .paragraph {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 30px;
+    line-height: 20px;
+}
+
+.content h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.content .contact {
+    transition: all 1s;
+    width: 300px;
+    height: 40px;
+    background: transparent;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: all 1s;
+    color: white;
+}
+
+.content .contact a {
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+}
+
+.content .contact a:hover {
+    color: black;
+}
+
+.content .contact:hover {
+    background: gold;
+}
+
+.content span {
+    color: gold;
+    font-size: 60px;
+}
+
+.form {
+    padding-left: 84%;
+    margin-top: -300px;
+    background: linear-gradient(to top, rgba(59, 57, 57, 0.7), rgba(190, 202, 22, 0.3));
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 10px;
+}
+
+.form .a {
+    color: gold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form input {
+    border-radius: 5px;
+    border-color: white;
+    transition: all 1s;
+    height: 20px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+
+.form input:hover {
+    border-color: gold;
+}
+
+.form .password {
+    border-radius: 5px;
+    border-color: white;
+    transition: all 1s;
+    height: 20px;
+    background: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.form .password:hover {
+    border-color: gold;
+}
+
+.form .submit {
+    background: transparent;
+    width: 5px;
+    border-radius: 10px;
+    transition: all 1s;
+    height: 30px;
+    width: 120px;
+    color: white;
+    margin-top: 10px;
+}
+
+.form .submit {
+    border-radius: 10px;
+}
+
+.form .submit a {
+    text-decoration: none;
+    color: white;
+    border-radius: 100px;
+    width: 100px;
+    transition: all 1s;
+}
+
+.form .submit:hover {
+    background: gold;
+    color: black;
+}
+
+.form .submit a:hover {
+    color: black
+}
+
+.form .link a {
+    color: aqua;
+    transition: all 1s;
+    text-decoration: none;
+}
+
+.form .liw a {
+    color: aqua;
+    transition: all 1s;
+    text-decoration: none;
+    margin-top: 1px;
+}
+
+.form .link a:hover {
+    color: gold;
+}
+
+.form .liw a:hover {
+    color: gold;
+}
+
+::placeholder {
+    color: white;
+}
+
+.form .l a {
+    text-decoration: none;
+    color: white;
+    transition: all 1s;
+}
+
+.form .l a:hover {
+    text-decoration: none;
+    color: gold;
+}
+
+.form .i {
+    color: aqua;
+}
